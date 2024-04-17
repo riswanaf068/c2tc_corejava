@@ -7,11 +7,13 @@ public class Commision {
      public long PhoneNo;
    public double salesAmount;
      public double commision;
+    
     public void AcceptDetails_Employee(String Name,String Address,long PhoneNo,double salesAmount) {
     	this. Name=Name;
     	this. Address=Address;
     	this. PhoneNo=PhoneNo;
     	this.salesAmount=salesAmount;
+    	
      }
   
      
@@ -26,7 +28,7 @@ public class Commision {
     		 return  commision=salesAmount*0.03;
     	 }
     	 else  {
-    		 return  0;
+    		 return  salesAmount*0.02;
     	 }
     }
 }

@@ -7,15 +7,13 @@ public class Man {
     System.out.println("enter your Fullname_with_initial:");
     String FullName_with_initial=input.nextLine();
     System.out.println("enter your RollNo:");
-    String RollNo=input.nextLine();
-   
+    long RollNo=input.nextLong();
+input.nextLine();
     System.out.println("enter your Grade:");
     String Grade=input.nextLine();
  
     System.out.println("enter your Percentage:");
-    int Percentage=input.nextInt();
- 
-    
+    float Percentage=input.nextFloat();
     System.out.println(FullName_with_initial);
     System.out.println(RollNo);
     System.out.println(Grade);

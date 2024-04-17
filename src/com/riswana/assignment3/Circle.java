@@ -5,7 +5,7 @@
 	public class Circle {
 		
 		
-		 public double radius;
+		 public float radius;
 		 public String colour;
 		   public void getInput() {
 		    	Scanner s= new Scanner(System.in);
